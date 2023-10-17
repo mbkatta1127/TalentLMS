@@ -1,183 +1,89 @@
-Programming Questions and Exercises : Loops
+Programming Questions and Exercises : Decision
 
 Question 1
 
-Write a program to print numbers from 1 to 10.
+Even or Odd
+Write a program that asks the user to enter a number and displays whether entered number is an odd number or even number.
 
 Show the answer.
+
+
 
 Question 2
 
-Write a program to calculate the sum of first 10 natural number.
+Absolute value
+Write a program that asks the user to enter a number and displays the absolute value of that number.
 
 Show the answer.
+
+
 
 Question 3
 
-Write a program that prompts the user to input a positive integer. It should then print the multiplication table of that number. 
+Discount and Revenue
+Revenue can be calculated as the selling price of the product times the quantity sold, i.e. revenue = price × quantity. Write a program that asks the user to enter product price and quantity and then calculate the revenue. If the revenue is more than 5000 a discount is 10% offered. Program should display the discount and net revenue.
 
 Show the answer.
+
+
+
+ 
 
 Question 4
 
-Write a program to find the factorial value of any number entered through the keyboard. 
+Largest Number
+Write a program that asks the user to enter a numbers in three variables and then displays the largest number.
 
 Show the answer.
+
+
+
+ 
 
 Question 5
 
-Two numbers are entered through the keyboard. Write a program to find the value of one number raised to the power of another. (Do not use Java built-in method)
+Positive, negative or zero
+Write a program that prompts the user to input a number. The program should then output the number and a message saying whether the number is positive, negative, or zero.
 
 Show the answer.
+
+
+
+ 
 
 Question 6
 
-Write a program that prompts the user to input an integer and then outputs the number with the digits reversed. For example, if the input is 12345, the output should be 54321.
+Valid Triangle
+A triangle is valid if the sum of all the three angles is equal to 180 degrees. Write a program that asks the user to enter three integers as angles and check whether a triangle is valid or not.
 
 Show the answer.
+
+
+
 
 Question 7
 
-Write a program that reads a set of integers, and then prints the sum of the even and odd integers.
+Leap Year
+Any year is input by the user. Write a program to determine whether the year is a leap year or not.
+
+Leap Years are any year that can be evenly divided by 4.  A year that is evenly divisible by 100 is a leap year only if it is also evenly divisible by 400.
+
+Example :
+1992      Leap Year
+2000      Leap Year
+1900      NOT a Leap Year
 
 Show the answer.
+
+ 
 
 Question 8
 
-Write a program that prompts the user to input a positive integer. It should then output a message indicating whether the number is a prime number. 
+Telephone Bill
+Write a program to calculate the monthly telephone bills as per the following rule: 
+Minimum Rs. 200 for up to 100 calls. 
+Plus Rs. 0.60 per call for next 50 calls. 
+Plus Rs. 0.50 per call for next 50 calls. 
+Plus Rs. 0.40 per call for any call beyond 200 calls.
 
 Show the answer.
-
-Question 9
-
-Write a program to calculate HCF of Two given number.
-
-Show the answer.
-
-Question 10
-
-Write a do-while loop that asks the user to enter two numbers. The numbers should be added and the sum displayed. The loop should ask the user whether he or she wishes to perform the operation again. If so, the loop should repeat; otherwise it should terminate. 
-
-Show the answer.
-
-Question 11
-
-Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered. 
-
-Show the answer.
-
- 
-
-Question 12
-
-Write a program to enter the numbers till the user wants and at the end the program should display the largest and smallest numbers entered.
-
-Show the answer.
-
-Question 13
-
-Write a program to print out all Armstrong numbers between 1 and 500. If sum of cubes of each digit of the number is equal to the number itself, then the number is called an Armstrong number.
-For example, 153 = ( 1 * 1 * 1 ) + ( 5 * 5 * 5 ) + ( 3 * 3 * 3 )
-
-Show the answer.
-
-Question 14
-
-Write a program to print Fibonacci series of n terms where n is input by user :
-0 1 1 2 3 5 8 13 21 ..... 
-
-Show the answer.
-
-Question 15
-
-Write a program to calculate the sum of following series where n is input by user. 
-1 + 1/2 + 1/3 + 1/4 + 1/5 +…………1/n 
-
-Show the answer.
-
-Question 16
-
-Compute the natural logarithm of 2, by adding up to n terms in the series
-1 - 1/2 + 1/3 - 1/4 + 1/5 -... 1/n
-where n is a positive integer and input by user.
-
-Show the answer.
-
-Question 17
-
-Write a program that generates a random number and asks the user to guess what the number is. If the user's guess is higher than the random number, the program should display "Too high, try again." If the user's guess is lower than the random number, the program should display "Too low, try again." The program should use a loop that repeats until the user correctly guesses the random number.
-
-Show the answer.
-
-Question 18
-
-Write a program to print following :
-
- 
-
-i)
-
-**********
-**********
-**********
-**********
-
-ii)
-
-*
-**
-***
-****
-*****
-
-iii)
-
-        *
-      **
-    ***
-  ****
-*****
-
- 
-
-iv)
-
-        *
-      ***
-    *****
-  *******
-*********
-
-v)
-
-        1
-      222
-    33333
-  4444444
-555555555
-
-vi)
-
-        1
-      212
-    32123
-  4321234
-543212345
-
- 
-
- 
-
-Question 19
-
-Write a program to compute sinx for given x. The user should supply x and a positive integer n. We compute the sine of x using the series and the computation should use all terms in the series up through the term involving xn
-
-sin x = x - x3/3! + x5/5! - x7/7! + x9/9! .......
-
- 
-
-Question 20
-
-Write a program to compute the cosine of x. The user should supply x and a positive integer n. We compute the cosine of x using the series and the computation should use all terms in the series up through the term involving xn
-
-cos x = 1 - x2/2! + x4/4! - x6/6! .....
